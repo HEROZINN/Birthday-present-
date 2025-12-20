@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(blue, pink);
+    text-align: center;
+    font-family: serif, cursive;
+    font-weight: bolder;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1, h2, h4 {
+  text-shadow: 0px 0px 1px black;
+}
+#img {
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid pink;
+  
+  
+}
+#pj {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ #date {
+   background: #EFB0C9;
+   border-radius: 4px;
+   padding: 5px 10px;
+   margin-top: 8px;
+ }
+ #gg {
+background: #EFB0C9;
+border-radius: 4px;
+padding: 5px 10px;
+margin-bottom: 0px;
+margin-top: 8px;
+ }
+ 
+ .gift-img {
+   width: 200px;
+   height: 300px;
+   border-radius: 5px;
+   border: 5px solid gray;
+   background-image: url("vv.jpg");
+   background-size: cover;
+   margin: 0 auto;
+ }
+ .gift-1 {
+   margin-top: 50px;
+ }
+ 
+ .t1 {
+   margin-bottom: 5px;
+ }
+ .t2 {
+   margin-top: 0px;
+ }
+ #gift-img-happy:hover {
+   background-image: url("swap.jpg")
+ }
+ 
+ #gift-img-gh:hover {
+   background-image: url("sam.jpg");
+ }
+ #gift-img-ok:hover {
+   background-image: url("ok.jpg");
+ }
+ #gift-img-vv:hover {
+   background-image: url("pp.png");
+ }
+  #gift-img-pp:hover {
+   background-image: url("mm.jpg");
+ }
+ /*#gift-img-pp {
+   height: 400px;
+ }*/
+footer {
+  margin-top: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
